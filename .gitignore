@@ -1,0 +1,10 @@
+
+*.pyc
+
+.DS_Store
+
+local_settings.py
+
+debug_data.py
+
+result.txt

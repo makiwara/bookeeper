@@ -12,7 +12,7 @@ import tags # tags.tags = { u"name": ['nicknames', ...], ... }
 import re
 
 try:
-	import * from local_settings.py
+	from local_settings import * 
 except:
 	EMAIL = 'somemail@gmail.com'
 	PASSWORD  = 'somepassword'
@@ -25,7 +25,7 @@ docs_interface.EMAIL    = email_interface.EMAIL    = EMAIL
 docs_interface.PASSWORD = email_interface.PASSWORD = PASSWORD
 
 docs_interface.SPREADSHEET = dict(
-    key   = SPREADSHEET
+    key   = SPREADSHEET,
     sheet = 'od6'
 )
 

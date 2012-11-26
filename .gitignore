@@ -8,3 +8,5 @@ local_settings.py
 debug_data.py
 
 result.txt
+
+tags.py

@@ -6,7 +6,7 @@ from pprint import pprint
 
 import email_interface
 import docs_interface
-import tags
+import tags # tags.tags = { u"name": ['nicknames', ...], ... }
 
 
 import re
